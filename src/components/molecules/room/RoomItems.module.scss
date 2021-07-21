@@ -1,0 +1,15 @@
+.root {
+    width: 100%;
+    background-color: rgb(235, 228, 228);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 0;
+
+    .room_list {
+        padding: 0;
+        &:hover {
+            opacity: 0.6;
+            cursor: pointer;
+        }
+    }
+}

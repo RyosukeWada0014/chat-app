@@ -1,0 +1,38 @@
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .modal_content {
+        height: auto;
+        width: 520px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        outline: none;
+        padding-bottom: 16px;
+        .modal_title {
+            text-align: center;
+        }
+
+        .mailAddress_form {
+            display: flex;
+            justify-content: center;
+            width: 80%;
+            margin-bottom: 16px;
+            .text_field {
+                width: 80%;
+            }
+            .able_sendIcon {
+                color: #3171ca;
+                margin-left: 8px;
+            }
+            .disable_sendIcon {
+                margin-left: 8px;
+            }
+        }
+    }
+}

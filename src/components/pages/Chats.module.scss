@@ -1,0 +1,19 @@
+.root {
+    height: 90vh;
+    width: 100vw;
+    margin-bottom: 60px;
+    overflow: auto;
+
+    .chat_list {
+        width: 100%;
+    }
+}
+
+@media (min-width: 600px) {
+    .root {
+        height: 82vh;
+        width: 640px;
+        margin: 0 auto;
+        margin-bottom: 82px;
+    }
+}

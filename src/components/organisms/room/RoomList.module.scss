@@ -1,0 +1,14 @@
+.root {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 16px;
+    height: 100vh;
+}
+
+@media (min-width: 600px) {
+    .root {
+        margin: 0 auto;
+        margin-top: 1rem;
+        width: 640px;
+    }
+}

@@ -1,0 +1,65 @@
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .modal_content {
+        height: auto;
+        width: 100vw;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        &:focus {
+            outline: none;
+        }
+
+        .modal_title {
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+        .username_textfield {
+            width: 100%;
+        }
+
+        .avatar_content {
+            text-align: center;
+            .avatar {
+                height: 100px;
+                width: 100px;
+                cursor: pointer;
+            }
+            .avatar_select {
+                cursor: pointer;
+            }
+        }
+        .update_button {
+            margin: 10px 0;
+            background-color: #0054ac;
+            color: #fff;
+        }
+        .chancel_button {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (min-width: 600px) {
+    .root {
+        .modal_content {
+            height: 560px;
+            width: 480px;
+
+            .username_textfield {
+                width: 70%;
+            }
+
+            .update_button,
+            .chancel_button {
+                width: 70%;
+            }
+        }
+    }
+}

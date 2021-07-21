@@ -1,0 +1,26 @@
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+    .text_field {
+        width: 65%;
+    }
+
+    .create_button {
+        margin-left: 1rem;
+        background-color: #0054ac;
+        color: #fff;
+    }
+}
+
+@media (min-width: 600px) {
+    .root {
+        margin-top: 32px;
+
+        .text_field {
+            width: 480px;
+        }
+    }
+}
