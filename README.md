@@ -2,7 +2,7 @@
 メールアドレス:test@gmail.com\
 パスワード：123456
 
-##　使用ツール
+使用ツール
 React\
 Redux\
 TypeScript\
