@@ -1,9 +1,14 @@
-#使用ツール
-React/
-Redux/
-TypeScript/
-Material UI/
-Firebase
+##ログイン時下記メールアドレスとパスワードをご利用ください
+メールアドレス:test@gmail.com
+パスワード：123456
+
+##　使用ツール
+React\
+Redux\
+TypeScript\
+Material UI\
+Firebase　\
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
